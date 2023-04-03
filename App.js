@@ -19,7 +19,7 @@ export default function App() {
             setTenzies(true)
             if (tries<lowestTries) {
                 setLowestTries(tries)
-                localStorage.setItem("lowestTries", lowestTries)
+                localStorage.setItem("lowestTries", tries)
             }
         }
     }, [dice])
